@@ -1,0 +1,30 @@
+{
+  "name": "airporn-crowdsale",
+  "version": "1.0.0",
+  "description": "Crowdsale contracts for XXX",
+  "main": "truffle.js",
+  "scripts": {
+    "dev-server": "gulp --gulpfile ./website/gulpfile.js",
+    "deploy-prod": "netlify deploy -s airpornio -p website/app",
+    "deploy-dev": "netlify deploy -s dev-airporn-io -p website/app"
+  },
+  "devDependencies": {
+    "async": "^2.5.0",
+    "ethereumjs-testrpc": "^4.0.1",
+    "sloc": "^0.2.0",
+    "truffle": "^3.4.6",
+    "truffle-hdwallet-provider": "^0.0.3",
+    "web3": "^1.0.0-beta.13",
+    "zeppelin-solidity": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airporn-io/airporn-crowdsale.git"
+  },
+  "author": "Wei-Ning Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airporn-io/airporn-crowdsale/issues"
+  },
+  "homepage": "https://github.com/airporn-io/airporn-crowdsale#readme"
+}
